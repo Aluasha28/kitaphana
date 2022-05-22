@@ -15,7 +15,7 @@ import com.travelblog.http.*;
 
 import java.util.*;
 
-public class MainAdapter extends ListAdapter<Blog, MainAdapter.MainViewHolder> {
+public class MainAdapter extends ListAdapter<Blog, MainAdapter.MainViewHolder> {//Whenever we extend ListAdapter, we need to specify two generic types: the model and the view holder
 
     public interface OnItemClickListener {
         void onItemClicked(Blog blog);
@@ -71,6 +71,7 @@ public class MainAdapter extends ListAdapter<Blog, MainAdapter.MainViewHolder> {
     }
 
     static class MainViewHolder extends RecyclerView.ViewHolder {
+        //In our case the model is Blog and the view holder object is MainViewHolder
 
         private TextView textTitle;
         private TextView textDate;

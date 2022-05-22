@@ -27,6 +27,11 @@ public final class BlogHttpClient {
         gson = new Gson();
     }
 
+    //Before
+//    public void loadBlogArticles(BlogArticlesCallback callback) {
+//    ...
+//    }
+    //after
     public List<Blog> loadBlogArticles() {
         Request request = new Request.Builder()
                 .get()

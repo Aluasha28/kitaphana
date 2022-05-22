@@ -20,7 +20,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:menu="@menu/main_menu"
-                app:title="Kitaphana"
+                app:title="Blog App"
                 app:titleTextColor="@android:color/white" />
 
     </com.google.android.material.appbar.AppBarLayout>
